@@ -489,7 +489,7 @@ clf2, accur, ConfMat, Rep, roc_auc= GridSearchModel(features, labels, model=SVC(
 feats['SVM']=[clf2, RelFeats, 1]
 
 #Now backtest the above results
-r1,r2=BackTest(feats, df)
+r1,r2=BackTest(feats, df, GSCV=True)
 print r1
 print r2
 
