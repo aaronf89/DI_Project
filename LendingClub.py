@@ -431,7 +431,7 @@ def BackTest(Feats, df, GSCV=False):
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-#Define data location and create a disk engine for SQL database
+#Define data location
 file1='.Data/LoanStats3a.csv'
 file2='./Data/LoanStats3b.csv'
 file3='./Data/LoanStats3c.csv'
